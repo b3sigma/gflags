@@ -37,7 +37,7 @@ if (GFLAGS_INCLUDE_DIR MATCHES "^\\.\\.[/\\]")
 endif ()
 
 option (BUILD_SHARED_LIBS          "Request build of shared libraries."                                       OFF)
-option (BUILD_STATIC_LIBS          "Request build of static libraries (default if BUILD_SHARED_LIBS is OFF)." OFF)
+option (BUILD_STATIC_LIBS          "Request build of static libraries (default if BUILD_SHARED_LIBS is OFF)." ON)
 option (BUILD_gflags_LIB           "Request build of the multi-threaded gflags library."                      ON)
 option (BUILD_gflags_nothreads_LIB "Request build of the single-threaded gflags library."                     ON)
 option (BUILD_PACKAGING            "Enable build of distribution packages using CPack."                       OFF)
